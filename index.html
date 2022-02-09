@@ -13,25 +13,28 @@
     <link rel="stylesheet" href="style.css" />
     <title>Bootstrap Portfolio</title>
   </head>
-  <body class="bg-secondary">
-    <div class="bg-white">
-      <header class="container bg-white">
-        <nav class="navbar">
-          <h2 class="navbar-brand">My Portfolio</h2>
-          <ul class="nav">
+  <body
+    class="bg-secondary"
+    data-bs-spy="scroll"
+    data-bs-target="#navbar-spy"
+    data-bs-offset="300"
+    tabindex="0"
+  >
+    <nav id="navbar-spy" class="navbar navbar-light bg-white px-5 fixed-top">
+      <h2>My Portfolio</h2>
+      <ul class="nav nav-pills">
             <li class="nav-item">
-              <a class="nav-link" href="#Portfolio">Portfolio</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#About">About</a>
+          <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Contact">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
-      </header>
-    </div>
+
     <div class="bg-white rounded-bottom">
       <div class="container pt-5 pb-5 col-7">
         <h1 class="mt-5">Hi, Good to see you</h1>
