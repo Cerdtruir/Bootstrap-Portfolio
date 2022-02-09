@@ -1,6 +1,23 @@
 body {
   position: relative;
 }
+
 .custom-color-background {
   background-color: #e5e5e5;
+}
+
+.vh-75 {
+  height: 75vh;
+}
+
+.radius-on-bottom-left {
+  border-bottom-left-radius: 100px;
+}
+
+.radius-on-top-right {
+  border-top-right-radius: 100px;
+}
+
+.radius-on-top-left {
+  border-top-left-radius: 100px;
 }
