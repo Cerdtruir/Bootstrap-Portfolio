@@ -1,0 +1,68 @@
+body {
+  position: relative;
+}
+
+.custom-color-background {
+  background-color: #e5e5e5;
+}
+
+.vh-75 {
+  height: 75vh;
+}
+
+.radius-on-bottom-left {
+  border-bottom-left-radius: 100px;
+}
+
+.radius-on-top-right {
+  border-top-right-radius: 100px;
+}
+
+.radius-on-top-left {
+  border-top-left-radius: 100px;
+}
+
+.portfolio-hover:hover {
+  border-color: #0d6efd;
+}
+
+.portfolio-radius {
+  border-radius: 24px;
+}
+
+.hero-background-images {
+  background:
+    url("images/Ellipse12.svg") 5% 95% no-repeat,
+    url("images/Ellipse11.svg") 100% 90% / 10% no-repeat,
+    url("images/Ellipse14.svg") 15% 30% no-repeat,
+    url("images/Ellipse8.svg") 25% 40% no-repeat,
+    url("images/Ellipse7.svg") 35% 95% no-repeat,
+    url("images/Ellipse6.svg") 45% 85% no-repeat,
+    url("images/Ellipse5.svg") 55% 75% no-repeat,
+    url("images/Ellipse4.svg") 65% 65% no-repeat,
+    url("images/Rectangle6.svg") 75% 55% no-repeat,
+    url("images/Rectangle7.svg") 85% 45% no-repeat,
+    url("images/Rectangle5.svg") 95% 35% no-repeat,
+    url("images/Rectangle4.svg") 40% 5% no-repeat,
+    url("images/Ellipse13.svg") 70% 25% no-repeat,
+    url("images/Ellipse3.svg") 0% 0% / 10% no-repeat,
+    url("images/Ellipse11.svg") 100% 20% no-repeat;
+}
+
+.footer-background-images {
+  background:
+    url("images/Ellipse14.svg") 100% 0% no-repeat,
+    url("images/Ellipse8.svg") 50% 0% no-repeat,
+    url("images/Ellipse7.svg") 0% 90% no-repeat,
+    url("images/Ellipse6.svg") 80% 5% no-repeat,
+    url("images/Ellipse5.svg") 0% 100% no-repeat,
+    url("images/Rectangle6.svg") 60% 0% no-repeat,
+    url("images/Rectangle5.svg") 0% 0% no-repeat,
+    url("images/Rectangle4.svg") 100% 100% no-repeat,
+    url("images/Ellipse13.svg") 0% 0% no-repeat;
+  background-color: #6070ff;
+}
+
+.text-main-color {
+  color: #6070ff;
+}
