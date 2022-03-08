@@ -10,6 +10,10 @@ This site was made from a figma design.
 - HTML
 - CSS
 
+## Screenshot
+
+![screenshot](/images/Bootstrap-Portfolio-Screenshot.png)
+
 ## Live Demo
 
 [Live Demo Link](https://cerdtruir.github.io/Bootstrap-Portfolio/)
